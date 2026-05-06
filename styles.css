@@ -1,0 +1,86 @@
+/*Introdução ao CSS
+O CSS precisa seguir uma regra, um seletor/identificador HTML
+seguida de uma chave {} mais uma propriedade e um valor.
+Sintaxe:
+seletor {
+   propriedade: valor;
+   outra propriedade: outro valor;
+}
+Componentes da sintaxe: 
+Seletor: indica qual elemento HTML será estilizado.
+Propriedade: Atributo que deseja alternar, com cor, tamanho, etc.
+Bloco de declaração {} : delimitar as regras aplicadas ao seletor.
+Valor: É a definição para propriedade.
+*/
+
+h1 {
+    color:darkred;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    color:rgb(140, 47, 47);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #df948d;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+nav a {
+    color: rgb(102, 22, 22);
+}
+
+h2 {
+    color:rgb(139, 17, 17);
+    font-size: 40px;
+    text-align: center;
+    }
+
+img {
+    display:block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.link {
+    color:rgb(237, 76, 76);
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    background-color: rgba(239, 123, 123, 0.5);
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    color: rgb(128, 24, 24);
+    width: 100%;
+    height: 300px;
+}
+
+td {
+    border: 1px solid rgba(255, 0, 0, 0.568);
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(182, 147, 173, 0.367);
+}
